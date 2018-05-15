@@ -8,8 +8,8 @@
 In this lecture, we're going to look at one way to debug JavaScript code. We will essentially work with the following process:
 
 1. Setup a scenario we'd like to debug
-2. Attach our code to a debugger
-3. Launch the debugger and learn how to stop execution, inspect state, and resume execution
+1. Attach our code to a debugger
+1. Launch the debugger and learn how to stop execution, inspect state, and resume execution
 
 
 ## Setup
@@ -44,8 +44,8 @@ In the Google Chrome Developer Tools, navigate to the tab labeled "Sources". Tak
 1. On the left hand side, the file navigator, that will help you navigate to a representation of your `debugging-activity.js` file on your local machine
 1. In the middle panel, the workspace where open files can be viewed and interacted with
 1. The right hand side, which allows detailed views of what's going on in the code execution, namely, controls for breakpoints. It's recommended to configure the view to the following:
-  1. Collapsing the section called "Call Stack"
-  1. Expanding the sections "Scope" and "Breakpoints"
+    - Collapsing the section called "Call Stack"
+    - Expanding the sections "Scope" and "Breakpoints"
 1. It's useful (often necessary) to have the Console Drawer open. If it's not open by default on your inspector, use the kabob menu (three dot/vertical ellipses icon) to toggle the Console Drawer.
 
 ## Make Breakpoints to Pause Code
@@ -64,7 +64,7 @@ You should see on the Google Chrome Dev Tools window that the code has stopped e
 
 ![Observe breakpoint on line 17](images/06-pause-17-breakpoint.png)
 
-Take a second to check out the changes in the entire window. What do we see in the "Scopes" section?
+Take a second to check out the changes in the entire window. What do we see in the "Scope" section?
 
 ## Resuming Code Until the Next Breakpoint
 
