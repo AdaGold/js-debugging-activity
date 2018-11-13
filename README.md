@@ -39,7 +39,13 @@ Identify the listing under Remote Targets that relates to your running JavaScrip
 
 ![Chrome Dev Tools Debugger Tab](images/04-dev-tools-layout.png)
 
-In the Google Chrome Developer Tools, navigate to the tab labeled "Sources". Take a moment to familiarize yourself with the window, and identify the following things:
+In the Google Chrome Developer Tools, navigate to the tab labeled "Sources".
+
+When you go to the "Sources" tab, you should see a window pane on the left side with its own tabs. If your window does not have the tab named "Network" with `file://` listed under it, then select the tab "Filesystem". Select the button "Add folder to workspace". This should open up a file system prompt-- select the project directory of this project (`js-debugging-activity`) located on your computer and press "select".
+
+![Selecting the "Add folder to workspace" button](images/04-a-add-sources-from-filesystem.png)
+
+Now, take a moment to familiarize yourself with the window, and identify the following things:
 
 1. On the left hand side, the file navigator, that will help you navigate to a representation of your `debugging-activity.js` file on your local machine
 1. In the middle panel, the workspace where open files can be viewed and interacted with
